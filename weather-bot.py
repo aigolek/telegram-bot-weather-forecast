@@ -3,8 +3,8 @@ from telebot import types
 import weather_helpers as helper
 from datetime import datetime
 
-API_KEY = '6f3a939c554b71ae5f7812767d5ca7d0'
-bot = telebot.TeleBot("712045806:AAESkoqbbicN0Vy-20_QzV21hECf2Ag-0vE") 
+API_KEY = 'xxx'
+bot = telebot.TeleBot("xxx") 
 weather = helper.Helpers(API_KEY)
 
 @bot.message_handler(commands=['start'])
